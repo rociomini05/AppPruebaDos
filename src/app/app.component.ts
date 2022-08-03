@@ -10,4 +10,8 @@ export class AppComponent {
  constructor (){
   this.titulos = ['Jurassic Park', 'Star Wars', 'Jumanji']
  }
+
+ onAlertaPulsada(){
+  console.log('Pulsada!!!');
+ }
 }

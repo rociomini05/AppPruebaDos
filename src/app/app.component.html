@@ -1,3 +1,5 @@
-<app-alerta [texto]="titulos[0]" subTitulo="Este es el primero"></app-alerta>
+<app-alerta [texto]="titulos[0]" subTitulo="Este es el primero" (alertaPulsada)="onAlertaPulsada()">
+
+</app-alerta>
 <app-alerta [texto]="titulos[1]"></app-alerta>
 <app-alerta [texto]="titulos[2]" subTitulo="Este es el Tercero"></app-alerta>
